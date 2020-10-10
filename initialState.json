@@ -1,0 +1,54 @@
+{
+    "initialState": {
+        "clients": [
+            {
+                "name": "Gina Michaels",
+                "age": 22,
+                "cellphone": 1920172927,
+                "email": "example@gmail.com"
+            },
+            {
+                "name": "Mary Kennedy",
+                "age": 42,
+                "cellphone": 1921728927,
+                "email": "maryk@gmail.com"
+            },
+            {
+                "name": "Harold Chandler",
+                "age": 59,
+                "cellphone": 1921728927,
+                "email": "haroldC@gmail.com"
+            },
+            {
+                "name": "Jenny Williams",
+                "age": 28,
+                "cellphone": 1921717927,
+                "email": "jennywilliams@gmail.com"
+            },
+            {
+                "name": "Louis Flynn",
+                "age": 28,
+                "cellphone": 1932728927,
+                "email": "flynn@gmail.com"
+            },
+            {
+                "name": "Kate Jacobs",
+                "age": 31,
+                "cellphone": 1921728337,
+                "email": "jacobskate@gmail.com"
+            },
+            {
+                "name": "Paul Bird",
+                "age": 44,
+                "cellphone": 1921728990,
+                "email": "bird@gmail.com"
+            },
+            {
+                "name": "Caesar Vance",
+                "age": 42,
+                "cellphone": 1921728923,
+                "email": "vance@gmail.com"
+            }
+        ]
+    }
+}
