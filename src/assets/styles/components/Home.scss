@@ -1,5 +1,24 @@
 .hero{
-    height: 700px;
+    background: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .2)), url('../../images/Corporate.jpg') no-repeat 0 50%;
+    background-size: 100% 600px;
+    display: flex;
+    height: 600px;
     width: 100%;
-    background-color: aqua;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color: black;
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+h2{
+    margin-bottom: 20px;
+}
+
+.btn-primary{
+    background-color: #0f3057;
+    border: #0f3057;
 }

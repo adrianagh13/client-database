@@ -7,9 +7,11 @@ import '../assets/styles/components/Home.scss';
 const Home = () => (
     <>
         <div className="hero">
-            <h1>Welcome</h1>
-            <h2>Manage your client database </h2>
-            <Link to="/clients" className="btn btn-primary">Get Started</Link>
+            <div className="details">
+                <h1>Welcome.</h1>
+                <h2>Manage your client database </h2>
+                <Link to="/clients" className="btn btn-primary">Get Started</Link>
+            </div>
         </div>
     </>
 );
