@@ -5,10 +5,10 @@ import { Provider } from 'react-redux';
 import 'bootstrap/dist/css/bootstrap.css' //importar estilos de bootstrap en el archivo main que es index
 
 import App from './routes/App';
-import { initialState } from '../initialState.json';
+import initialState from './initialState.json';
 import reducers from './reducers'; //si en la carpeta solo hay un archivo, se puede llamar directamente a ella.
 
-const store = createStore(initialState, reducers);
+const store = createStore(reducers, initialState);
 
 ReactDOM.render(
   <Provider store={store}> 
