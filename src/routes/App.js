@@ -6,6 +6,8 @@ import Client from '../pages/Clients';
 import Layout from '../components/Layout';
 import NewClient from '../pages/NewClient';
 
+import '../assets/styles/App.scss';
+
 const App = () => (
     <BrowserRouter>
         <Layout> 

@@ -8,7 +8,7 @@ import '../assets/styles/components/NewClient.scss';
 const NewClient = () => {
     
     return (
-        <div className="container new-client">
+        <div className="new-client">
             <h2>Register a new Client</h2>
             <ClientForm />
         </div>
