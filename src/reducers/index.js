@@ -1,6 +1,6 @@
 
-const reducers = (action, type) => {
-
+const reducers = (state, action) => {
+    
 }
 
 export default reducers;

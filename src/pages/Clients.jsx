@@ -4,8 +4,9 @@ import Client from '../components/Client';
 
 import '../assets/styles/components/Clients.scss';
 import { Link } from 'react-router-dom';
+import { connect } from 'react-redux';
 
-const Clients = () => {
+const Clients = ({ clients }) => {
 
     return(
         <div className="main">
@@ -15,13 +16,21 @@ const Clients = () => {
                 </div>
             
             <div className="container">
-                <Client />
-                <Client />
-                <Client />
-                <Client />
+                {clients.map(item => 
+                        <Client 
+                            key={item.id}
+                            {...item}
+                        />
+                    )}
             </div>
         </div>
     )
 }
 
-export default Clients;
+const mapStateToProps = (state) => {
+    return {
+        clients: state.clients,
+    }
+}
+
+export default connect(mapStateToProps, null)(Clients);
