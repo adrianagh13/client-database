@@ -12,7 +12,7 @@ const Clients = ({ clients }) => {
         <div className="main">
                 <div className="title">
                     <h2>Your Clients</h2>
-                    <Link to="/" className="btn btn-primary">Add Client</Link>
+                    <Link to="/clients/new" className="btn btn-primary">Add Client</Link>
                 </div>
             
             <div className="container">

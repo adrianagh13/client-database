@@ -4,6 +4,7 @@ import Home from '../pages/Home';
 import Client from '../pages/Clients';
 
 import Layout from '../components/Layout';
+import NewClient from '../pages/NewClient';
 
 const App = () => (
     <BrowserRouter>
@@ -11,6 +12,7 @@ const App = () => (
             <Switch>
                 <Route exact path="/" component={Home}/>
                 <Route exact path="/clients" component={Client}/>
+                <Route exact path="/clients/new" component={NewClient}/>
                 <Route />
             </Switch>
         </Layout>
