@@ -9,6 +9,7 @@ import initialState from './initialState.json';
 import reducers from './reducers'; //si en la carpeta solo hay un archivo, se puede llamar directamente a ella.
 
 const store = createStore(reducers, initialState);
+console.log(store.getState()); //el metodo getState obtiene los valores del state 
 
 ReactDOM.render(
   <Provider store={store}> 
